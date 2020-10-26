@@ -1,0 +1,187 @@
+body, html{
+	height:100%;
+	background-color: black;
+}
+/*------------------
+  Header section
+---------------------*/
+
+.header-section {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	padding: 30px 10px -10px;
+}
+
+.header-warp {
+	max-width: 1496px;
+	margin: 0 auto;
+}
+
+.header-social p,
+.footer-social p,
+.geme-social-share p {
+	display: inline-block;
+	color: #fff;
+	font-size: 19px;
+	padding-top: 7px;
+}
+
+.header-social a,
+.footer-social a,
+.geme-social-share a {
+	display: -ms-inline-flex;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	width: 10px;
+	height: 10px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 17px;
+	margin-left: 28px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	padding:10px;
+	text-decoration:none;
+}
+
+
+.header-bar-warp {
+	background: black;
+	padding: 10px 5px 0px;
+	-webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
+	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
+}
+
+.site-logo {
+	position:fixed;
+}
+
+
+.main-menu {
+	list-style: none;
+	text-align: right;
+	padding-top: 3px;
+}
+
+.main-menu li {
+	display: inline-block;
+	position: relative;
+
+}
+
+.main-menu li a {
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	margin-right: 50px;
+	padding-bottom: 28px;
+	position: relative;
+	padding-right: 10px;
+	text-decoration:none;
+}
+
+
+.main-menu li a i {
+	color: #928d92;
+	margin-left: 15px;
+}
+
+.main-menu li a:hover {
+	color: #b01ba5;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:50%;
+}	
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Instagram */
+.fa-instagram{
+	background:#3B5998;
+	color:white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* snapchat */
+.fa-snapchat {
+  background: #fffc00;
+  color: white;
+  font-size:20px;
+}
+
+/**table starts**/
+
+.container{
+	position:absolute;
+	top:50%;
+	left:40%;
+	-webkit-transform: translate(-40%,-30%);
+	transform(-50%,-50%);
+	
+}
+
+table{
+     border-collapse:collapse;
+     width:800px;
+     overflow:auto;
+     box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+th,td{
+	padding:15px;
+	background-color:rgba(255,255,255,0.2);
+	color:#fff;
+}
+
+th{
+	text-align:left;
+    font-size:30px;
+    color:white;
+	background-color:#88C9C7;
+}
+td{
+    text-align:left;
+    font-size:40px;
+    color:white;
+	padding:15px;
+}
+	
+tbody td{
+	font-family:aqua;
+	font-size:22px;
+}
+tbody tr:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+/*** table ends**/
